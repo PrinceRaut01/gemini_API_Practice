@@ -13,7 +13,6 @@ gemini_model = genai.GenerativeModel("gemini-2.5-flash")
 
 
 gemini_response = gemini_model.generate_content(
-    "what is gender equlity say in one line statement."
-)
+"what is gender equlity say in one line statement.")
 
 print(gemini_response.text)
